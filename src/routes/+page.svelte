@@ -26,7 +26,7 @@
 		class="rounded-full w-40 h-40 mx-auto md:mx-0"
 	/>
 	<div>
-		<h2 class="text-4xl font-bold mb-2">Hi, I'm Saiful Rohmat</h2>
+		<h2 class="text-4xl font-bold mb-2">Hai, I'm Saiful Rohmat</h2>
 		<p class="text-xl mb-4">A Software Developer & Aspiring Exporter</p>
 		<button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
 			>Download CV</button
@@ -88,5 +88,5 @@
 
 <!-- Footer -->
 <footer class="text-center py-4 text-sm text-gray-500">
-	&copy; {new Date().getFullYear()} Ariska. All rights reserved.
+	&copy; {new Date().getFullYear()} saiful. All rights reserved.
 </footer>
