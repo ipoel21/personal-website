@@ -1,27 +1,14 @@
 kind: pipeline
-type: docker
+type: exec
 name: deploy-personal-website
 
 steps:
   - name: build svelte docker image
-    image: docker:latest
-    volumes:
-      - name: dockersock
-        path: /var/run/docker.sock
     commands:
       - docker build -t my-svelte-app .
 
   - name: restart svelte container
-    image: docker:latest
-    volumes:
-      - name: dockersock
-        path: /var/run/docker.sock
     commands:
       - docker stop my-svelte-app || true
       - docker rm my-svelte-app || true
       - docker run -d --name my-svelte-app -p 3000:3000 my-svelte-app
-
-volumes:
-  - name: dockersock
-    host:
-      path: /var/run/docker.sock
