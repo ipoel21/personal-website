@@ -80,8 +80,8 @@
 <section id="contact" class="p-10 bg-gray-50">
 	<h3 class="text-2xl font-semibold mb-4">Contact</h3>
 	<div class="flex gap-4">
-		<a href="#" class="text-2xl hover:text-gray-600">GitHub</a>
-		<a href="#" class="text-2xl hover:text-gray-600">LinkedIn</a>
+		<a href="https://github.com/ipoel21" class="text-2xl hover:text-gray-600">GitHub</a>
+		<a href="https://www.linkedin.com/in/saiful-rohmat-857368238" class="text-2xl hover:text-gray-600">LinkedIn</a>
 		<a href="mailto:saifulrohmat8@gmail.com" class="text-2xl hover:text-gray-600">Email</a>
 	</div>
 </section>
