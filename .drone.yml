@@ -2,6 +2,10 @@ kind: pipeline
 type: exec
 name: deploy-personal-website
 
+trigger:
+  branch:
+    - master
+
 steps:
   - name: build svelte docker image
     commands:
